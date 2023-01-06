@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Kalam:wght@300&family=Merriweather:wght@400;700&family=Roboto:wght@300;700&family=Ubuntu:wght@300;400&display=swap");
+* {
+  width: 600px;
+  margin: auto;
+  font-family: "Crimson Text", serif;
+  padding: 0.5rem;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem 0rem;
+}
+table th,
+td {
+  border: 1px solid black;
+}

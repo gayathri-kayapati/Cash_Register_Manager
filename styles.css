@@ -32,12 +32,12 @@ button {
   font-size: 1rem;
 }
 caption {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 table,
 th,
 td {
-  border: 1.2px solid black;
-  border-collapse: collapse;
+  border: 2px solid black;
   min-width: 50px;
+  border-collapse: collapse;
 }

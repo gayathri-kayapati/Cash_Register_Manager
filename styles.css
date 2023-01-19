@@ -42,6 +42,9 @@ button {
   background-color: black;
   color: var(--primary-color);
 }
+button:hover {
+  background-color: rgb(120, 93, 50);
+}
 caption {
   font-size: 1.2rem;
   padding: 1rem;
@@ -64,4 +67,7 @@ td {
 .icon {
   width: 2rem;
   padding: 1rem;
+}
+.copy-right {
+  font-size: x-large;
 }

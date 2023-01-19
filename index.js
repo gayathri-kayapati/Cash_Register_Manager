@@ -31,6 +31,6 @@ function hiddenErrorMessage() {
 
 function showErrorMessage(message) {
   errorMessage.style.display = "block";
-  errorMessage.style.color = "red";
+  errorMessage.style.color = "darkred";
   errorMessage.innerText = message;
 }

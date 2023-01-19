@@ -2,10 +2,11 @@
 * {
   margin: auto;
   font-family: "Crimson Text", serif;
-  padding: 0.5rem;
+  padding: 0.7rem;
   --primary-color: purple;
 }
 body {
+  background-color: cadetblue;
   width: 800px;
   text-align: center;
   padding: 3rem 0rem;
@@ -40,4 +41,11 @@ td {
   border: 2px solid black;
   min-width: 50px;
   border-collapse: collapse;
+}
+
+.footer {
+  padding-top: 5rem;
+}
+.link {
+  text-decoration: none;
 }

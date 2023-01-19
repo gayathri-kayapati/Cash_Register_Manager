@@ -13,10 +13,14 @@
       Enter the bill amount and cash given by the customer and know minimum
       number of notes to return.
     </p>
-    <label><strong>Bill Amount:</strong></label>
-    <input type="text" id="bill-amount" />
-    <label><strong>Cash Given:</strong></label>
-    <input type="text" id="cash-given" />
+    <div class="container container-center">
+      <label><strong>Bill Amount:</strong></label>
+      <input type="text" class="bill-amount input-amount" />
+    </div>
+    <div class="container container-center">
+      <label><strong>Cash Given:</strong></label>
+      <input type="text" class="cash-given input-amount" />
+    </div>
     <button id="btn" onclick="clickEventlistner()">Check</button>
     <p id="error-message"></p>
     <table>
@@ -46,11 +50,20 @@
     </table>
     <footer class="footer">
       <div>
-        <section><span>&copy;</span>| 2023 | Gayathri Kayapati</section>
         <section>
-          <a class="link" href="https://github.com/">github</a>
-          <a class="link" href="https://www.linkedin.com">linkedin</a>
-          <a class="link" href="https://twitter.com">twitter</a>
+          <a class="link" target="_blank" href="https://github.com/"
+            ><img class="icon" src="icons/github.svg" alt="github"
+          /></a>
+          <a class="link" target="_blank" href="https://www.linkedin.com"
+            ><img class="icon" src="icons/linkedin.svg" alt="linkdin"
+          /></a>
+          <a class="link" target="_blank" href="https://twitter.com"
+            ><img class="icon" src="icons/square-twitter.svg" alt="twitter"
+          /></a>
+        </section>
+        <section>
+          <span style="font-size: x-large">&copy;</span>| 2023 | Gayathri
+          Kayapati
         </section>
       </div>
     </footer>

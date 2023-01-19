@@ -1,39 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Kalam:wght@300&family=Merriweather:wght@400;700&family=Roboto:wght@300;700&family=Ubuntu:wght@300;400&display=swap");
-* {
-  margin: auto;
-  font-family: "Crimson Text", serif;
-  padding: 0.7rem;
-  --primary-color: purple;
+:root {
+  --primary-color: cadetblue;
 }
 body {
-  background-color: cadetblue;
-  width: 800px;
+  margin: auto;
+  font-family: "Crimson Text", serif;
+  background-color: var(--primary-color);
+  max-width: 600px;
   text-align: center;
-  padding: 3rem 0rem;
+  padding: 3rem auto;
+}
+h1 {
+  padding-bottom: 1rem;
 }
 label {
   font-size: large;
+  display: block;
+  padding-bottom: 0.5rem;
 }
-#bill-amount {
-  width: 200px;
+.container {
+  padding: 1rem 1rem;
+}
+.container-center {
+  max-width: 200px;
+  margin: auto;
+}
+
+.input-amount {
   display: block;
   border-radius: 0.5rem;
   border-style: solid;
-}
-#cash-given {
-  width: 200px;
-  display: block;
-  border-radius: 0.5rem;
-  border-style: solid;
+  margin: auto;
+  height: 2rem;
+  text-align: center;
 }
 button {
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   border-radius: 0.5rem;
   font-size: 1rem;
+  background-color: black;
+  color: var(--primary-color);
 }
 caption {
   font-size: 1.2rem;
+  padding: 1rem;
 }
 table,
 th,
@@ -41,11 +52,16 @@ td {
   border: 2px solid black;
   min-width: 50px;
   border-collapse: collapse;
+  margin: auto;
+  height: 2rem;
 }
-
 .footer {
-  padding-top: 5rem;
+  padding: 3rem;
 }
 .link {
   text-decoration: none;
+}
+.icon {
+  width: 2rem;
+  padding: 1rem;
 }

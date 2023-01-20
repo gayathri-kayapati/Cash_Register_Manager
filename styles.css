@@ -74,7 +74,7 @@ td {
   width: 2.5rem;
   padding: 1rem;
 }
-.footer > p {
+.footer div p {
   display: flex;
   align-items: center;
   justify-content: center;

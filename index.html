@@ -17,47 +17,59 @@
       <label><strong>Bill Amount:</strong></label>
       <input type="text" class="bill-amount input-amount" />
     </div>
-    <div class="container container-center">
-      <label><strong>Cash Given:</strong></label>
-      <input type="text" class="cash-given input-amount" />
+    <button id="next-btn" onclick="nextBtnEventlistner()">Next</button>
+    <div class="secondary-input">
+      <div class="container container-center">
+        <label><strong>Cash Given:</strong></label>
+        <input type="text" class="cash-given input-amount" />
+      </div>
+      <button id="btn" onclick="checkBtnEventlistner()">Check</button>
+      <table>
+        <caption>
+          Return change
+        </caption>
+        <tr>
+          <th>No.of Notes</th>
+          <td class="noOfNotes"></td>
+          <td class="noOfNotes"></td>
+          <td class="noOfNotes"></td>
+          <td class="noOfNotes"></td>
+          <td class="noOfNotes"></td>
+          <td class="noOfNotes"></td>
+          <td class="noOfNotes"></td>
+        </tr>
+        <tr>
+          <th>Note</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
     </div>
-    <button id="btn" onclick="clickEventlistner()">Check</button>
     <p id="error-message"></p>
-    <table>
-      <caption>
-        Return change
-      </caption>
-      <tr>
-        <th>No.of Notes</th>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-      </tr>
-      <tr>
-        <th>Note</th>
-        <td>2000</td>
-        <td>500</td>
-        <td>100</td>
-        <td>20</td>
-        <td>10</td>
-        <td>5</td>
-        <td>1</td>
-      </tr>
-    </table>
     <footer class="footer">
       <div>
         <section>
-          <a class="link" target="_blank" href="https://github.com/"
+          <a
+            class="link"
+            target="_blank"
+            href="https://github.com/gayathri-kayapati"
             ><img class="icon" src="icons/github.svg" alt="github"
           /></a>
-          <a class="link" target="_blank" href="https://www.linkedin.com"
+          <a
+            class="link"
+            target="_blank"
+            href="https://www.linkedin.com/in/gayathri-kayapati-924885239/"
             ><img class="icon" src="icons/linkedin.svg" alt="linkdin"
           /></a>
-          <a class="link" target="_blank" href="https://twitter.com"
+          <a
+            class="link"
+            target="_blank"
+            href="https://twitter.com/GayathriKayapa1"
             ><img class="icon" src="icons/square-twitter.svg" alt="twitter"
           /></a>
         </section>
